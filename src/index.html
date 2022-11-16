@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <title>UI Workshop - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        </style>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="font- ['Montserrat']">
+    <!-- bordor color: #F5C4C0 -->
+    <!-- navbar bg color: #F5C4C0 -->
+    <!-- footer bg color: #F5C4C0 -->
+<!-- Header Section -->
+<div class="bg-[#F5C4C0]">
+    <div class="max-w-screen-xl mx-auto px-4 flex justify-between align-center py-4">
+        <p class="text-2xl font-['Philosopher']">TIMEX</p>
+        <div class="flex align-center space-x-6">
+            <img src="../dist/assets/search.png" alt="search-icon" class="h-8 w-8">
+            <img src="../dist/assets/shopping-cart.png" alt="search-icon" class="h-8 w-8">
+            <img src="../dist/assets/heart.png" alt="search-icon" class="h-8 w-8">
+            <img src="../dist/assets/account.png" alt="search-icon" class="h-8 w-8">
+        </div>
+    </div>
+    </div>
+    <!-- body Section -->
+    <!-- hero section -->
+    <div class="max-w-screen-xl mx-auto flex px-4 py-8">
+        <div class="flex flex-col justify-between">
+            <img src="../dist/assets/image-1.jpg" alt="Image-1" class="h-32 w-32 border-2 border-[#F5C4C0]" />
+            <img src="../dist/assets/image-2.jpg" alt="Image-2" class="h-32 w-32 border-2 border-[#F5C4C0]" />
+            <img src="../dist/assets/image-3.jpg" alt="Image-3" class="h-32 w-32 border-2 border-[#F5C4C0]" />
+            <img src="../dist/assets/image-1.jpg" alt="image-1" class="h-32 w-32 border-2 border-[#F5C4C0]" />
+        </div>
+        
+        <div>
+            <img src="../dist/assets/image-1.jpg" alt="image-1" class="h-[36rem] w-[28rem]" />
+        </div>
+        <div class="space-y-8 py-8 ">
+            <div>
+                <h2 class="text-5xl font-bold">Timex Smart Series</h2>
+                <h6 class=" text-lg font-semibold text-gray-500">Unisex Pink Tint Smartwatch ZX-135</h6>
+            </div>
+            <div>
+                <p>Rs. 4950 <span class=" line-through">Rs. 7990</span>(Rs. 3040 OFF) </p>
+                <P class="text-gray-500 text-lg font-medium">inclusive of all taxes</P>
+            </div>
+            <div>
+                <p class=" text-xl">Choose a Color</p>
+                <div class="flex space-x-4">
+                    <div class="h-8 w-8 rounded-full bg-red-200"></div>
+                    <div class="h-8 w-8 rounded-full bg-green-200"></div>
+                    <div class="h-8 w-8 rounded-full bg-blue-200"></div>
+                    <div class="h-8 w-8 rounded-full bg-orange-200"></div>
+                </div>
+            </div>
+            <div class="space-y-2">
+                <button class="py-3 w-2/3 border-2 border-[#F5C4C0] rounded-lg "><span>QUANTITY: 1</span></button>
+                <button class="py-3 w-2/3 bg-[#F5C4C0] text-white rounded-lg">ADD TO CART</button>
+            </div>
+        </div>
+    
+</div>
+<!-- similar products -->
+
+<div>
+    <div class="max-w-screen-xl mx-auto px-4 py-12">
+        <p class=" font-bold text-lg "> Similar Products </p>
+        <div class="flex justify-between mt-2">
+            <div class="w-1/6">
+                <img src="../dist/assets/image-5.jpg" alt="image-5" class="w-full h-64 object-cover border-2 border-[#F5C4C0]" />
+                <p class="font-medium">watch 1 </p>
+                <p class=" text-xs">Rs. 1000</p>
+            </div>
+            <div class="w-1/6">
+                <img src="../dist/assets/image-6.jpg" alt="image-5" class="w-full h-64 object-cover border-2 border-[#F5C4C0]" />
+                <p class="font-medium">watch 1 </p>
+                <p class=" text-xs">Rs. 1000</p>
+            </div>
+            <div class="w-1/6">
+                <img src="../dist/assets/image-7.jpg" alt="image-5" class="w-full h-64 object-cover border-2 border-[#F5C4C0]" />
+                <p class="font-medium">watch 1 </p>
+                <p class=" text-xs">Rs. 1000</p>
+            </div>
+            <div class="w-1/6">
+                <img src="../dist/assets/image-8.jpg" alt="image-5" class="w-full h-64 object-cover border-2 border-[#F5C4C0]" />
+                <p class="font-medium">watch 1 </p>
+                <p class=" text-xs">Rs. 1000</p>
+            </div>
+            <div class="w-1/6">
+                <img src="../dist/assets/image-9.jpg" alt="image-5" class="w-full h-64 object-cover border-2 border-[#F5C4C0]" />
+                <p class="font-medium">watch 1 </p>
+                <p class=" text-xs">Rs. 1000</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="max-w-screen-xl mx-auto px-4">
+        <p class=" font-bold text-lg "> Based on Previous Search </p>
+        <div class="flex justify-between mt-2">
+            <div class="w-1/6">
+                <img src="../dist/assets/image-5.jpg" alt="image-5" class="w-full h-64 object-cover border-2 border-[#F5C4C0]" />
+                <p class="font-medium">watch 1 </p>
+                <p class=" text-xs">Rs. 1000</p>
+            </div>
+            <div class="w-1/6">
+                <img src="../dist/assets/image-6.jpg" alt="image-5" class="w-full h-64 object-cover border-2 border-[#F5C4C0]" />
+                <p class="font-medium">watch 1 </p>
+                <p class=" text-xs">Rs. 1000</p>
+            </div>
+            <div class="w-1/6">
+                <img src="../dist/assets/image-7.jpg" alt="image-5" class="w-full h-64 object-cover border-2 border-[#F5C4C0]" />
+                <p class="font-medium">watch 1 </p>
+                <p class=" text-xs">Rs. 1000</p>
+            </div>
+            <div class="w-1/6">
+                <img src="../dist/assets/image-8.jpg" alt="image-5" class="w-full h-64 object-cover border-2 border-[#F5C4C0]" />
+                <p class="font-medium">watch 1 </p>
+                <p class=" text-xs">Rs. 1000</p>
+            </div>
+            <div class="w-1/6">
+                <img src="../dist/assets/image-9.jpg" alt="image-5" class="w-full h-64 object-cover border-2 border-[#F5C4C0]" />
+                <p class="font-medium">watch 1 </p>
+                <p class=" text-xs">Rs. 1000</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer Section -->
+
+<div class="bg-[#F5C4C0] mt-8">
+<div class=" max-w-screen-lg mx-auto py-8 px-4 font-medium text-gray-500 text-sm">
+    <div class="flex justify-between space-x-4">
+<div>
+    <p class="text-lg text-gray-700">Get to know us</p>
+    <ul class="my-1">
+        <li>About us</li>
+        <li>Carrier</li>
+        <li>Press Releases</li>
+    </ul>
+</div>
+<div>
+    <p class="text-lg text-gray-700">Get to know us</p>
+    <ul class="my-1">
+        <li>About us</li>
+        <li>Carrier</li>
+        <li>Press Releases</li>
+    </ul>
+</div>
+<div>
+    <p class="text-lg text-gray-700">Get to know us</p>
+    <ul class="my-1">
+        <li>About us</li>
+        <li>Carrier</li>
+        <li>Press Releases</li>
+    </ul>
+</div>
+    </div>
+    <div class="max-w-2xl text-xs mx-auto text-center space-y-2 mt-8">
+    <p>The site is Copyright protected. <br>TIMEX aims to offer sustainable options</p>
+    <p>&#169; All rights reserved</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
